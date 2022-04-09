@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    background: rgba(19, 18, 18, 0.918);
+    margin: 0;
+}
+
+main{
+    display: flex;
+    column-gap: 4em;
+    margin: 0 auto ;
+    width: 450px;
+    background: rgba(10, 10, 10, 0.61);
+    padding: 0 ;
+    border-radius: 10px;
+}
+
+div{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-size:x-small;
+    padding: 0;
+}
+.container {
+    width: 35%;
+    background-image:
+    linear-gradient(
+        rgba(17, 180, 230, 0.6), 
+        rgba(0, 153, 255, 0.699)
+    ),
+    url("./media/plages.jpg");
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    background-size: cover;
+}
+.fa-location-dot {
+    font-size:x-small; 
+}
+.fa-sun{
+    margin-top: 30;
+    margin-bottom: 0;
+    font-size: x-large;
+}
+h1 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#date {
+    margin-top: 0;
+}
+ #deg {
+     margin-top: 0;
+     margin-bottom: 1;
+     font-weight: bold;
+     font-size: xx-large ;
+ }
+ #sun {
+     font-weight: bold;
+     margin-top: 0;
+ }
+ .gauche{
+     float: left;
+ }
+ .weather {
+     display: flex;
+     flex-direction: row;
+ }
