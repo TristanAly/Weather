@@ -51,47 +51,72 @@ main{
     grid-area: weather;
     text-align: center;
     align-items: center;
+    cursor: pointer;
     
+}
+#items1:hover {
+    transform: scale(1.1);
+    background: rgba(0, 195, 255, 0.582);
+}
+#items2:hover {
+    transform: scale(1.1);
+    background: rgba(0, 195, 255, 0.582);
+}
+#items3:hover {
+    transform: scale(1.1);
+    background: rgba(0, 195, 255, 0.582);
+}
+#items4:hover {
+    transform: scale(1.1);
+    background: rgba(0, 195, 255, 0.582);
 }
 #items1 {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: 1px solid rgb(10, 205, 240);
     border-radius: 5px;
     align-items: center;
     padding: 10;
     width: 10px;
     justify-content: space-between;
+    transform: scale(1);
+    transition: transform 0.2s ease;
 }
 #items2 {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: 1px solid rgb(10, 205, 240);
     border-radius: 5px;
     align-items: center;
     padding: 10;
     width: 10px;
     justify-content: space-between;
+    transform: scale(1);
+    transition: transform 0.2s ease;
 }
 #items3 {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: 1px solid rgb(10, 205, 240);
     border-radius: 5px;
     align-items: center;
     padding: 10;
     width: 10px;
     justify-content: space-between;
+    transform: scale(1);
+    transition: transform 0.2s ease;
 }
 #items4 {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: 1px solid rgb(10, 205, 240);
     border-radius: 5px;
     align-items: center;
     padding: 10;
     width: 10px;
     justify-content: space-between;
+    transform: scale(1);
+    transition: transform 0.2s ease;
 }
 
 div{
@@ -112,8 +137,13 @@ div{
     border-radius: 10px;
     background-size: cover;
     grid-area: container;
+    transform: scale(1);
+    transition: transform 0.2s ease;
 
 }
+#container:hover {
+    transform: scale(1.1)
+} 
 .fa-location-dot {
     font-size:x-small; 
 }
