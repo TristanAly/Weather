@@ -19,7 +19,7 @@
   <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet" />
   <body>
     <main>
-      <div class="container">
+      <div id="container">
         <h1>Tuesday</h1>
         <p id="date">15 Jan 2019</p>
         <p><i class="fa-solid fa-location-dot"></i> Paris, FR</p>
@@ -27,18 +27,24 @@
         <p id="deg">29°C</p>
         <p id="sun">Sunny</p>
       </div>
-      <div class="gauche">
-        <p>PRECIPITATION 0%</p>
-        <p>HUMIDITY 34%</p>
-        <p>WIND 0Km/h</p>
+      <div id="left">
+        <p>PRECIPITATION</p>
+        <p>HUMIDITY</p>
+        <p>WIND</p>
       </div>
-      <div class="weather">
-        <span class="fa-solid fa-sun">Tue 23°C</span>
-        <span class="fa-solid fa-sun">Wed 23°C</span>
-        <span class="fa-solid fa-sun">Thu 23°C</span>
-        <span class="fa-solid fa-sun">Fry 23°C</span>
+      <div id="number">
+        <p>0%</p>
+        <p>34%</p>
+        <p>0Km/h</p>
       </div>
-      <button id="location">Change location</button>
+      <div id="weather">
+        <span id="items1" class="fa-solid fa-location-dot">Tue<br>23°C</span>
+        <span id="items2" class="fa-solid fa-location-dot">Wed<br>23°C</span>
+        <span id="items3" class="fa-solid fa-location-dot">Thu<br>23°C</span>
+        <span id="items4" class="fa-solid fa-location-dot">Fry<br>23°C</span>
+      </div>
+      <button id="location"><i class="fa-solid fa-location-dot"></i>Change location</button>
     </main>
   </body>
 </html>
+
